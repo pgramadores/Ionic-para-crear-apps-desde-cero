@@ -14,4 +14,28 @@
     Take a look at the <code>src/pages/</code> directory to add or change tabs,
     update any existing page or create new pages.
   </p>
+  <p *ngIf="nombre">
+    {{nombre}}
+  </p>
+  <input type="text" name="" [value]="nombre">
+  <br>
+  <hr>
+  <br>
+  <input type="text" [(ngModel)]="nombre">
+  <button (tap)="agregar()">agregar elemento</button>
+  <button (tap)="eliminar()">eliminar ultimo elemento</button>
+
+<hr>
+<ul >
+  <li *ngFor="let variable of ropa">
+    {{variable}}
+  </li>
+</ul>
+<br>
+<br>
+<button (tap)="saludo()" class="btn" type="button">Haz clic!</button>
+
+<hr>
+  Este es el valor de dolar del dia de hoy : {{datos}}
+
 </ion-content>

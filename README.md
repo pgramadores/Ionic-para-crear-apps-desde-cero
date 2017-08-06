@@ -1,26 +1,51 @@
-This is a starter template for [Ionic](http://ionicframework.com/docs/) projects.
+# IONIC para crear apps desde cero
 
-## How to use this template
-
-*This template does not work on its own*. The shared files for each starter are found in the [ionic2-app-base repo](https://github.com/ionic-team/ionic2-app-base).
-
-To use this template, either create a new ionic project using the ionic node.js utility, or copy the files from this repository into the [Starter App Base](https://github.com/ionic-team/ionic2-app-base).
-
-### With the Ionic CLI:
-
-Take the name after `ionic2-starter-`, and that is the name of the template to be used when using the `ionic start` command below:
+Primero deben clonar el repositorio a alguna carpeta de su computadora y luego hay que ejecutar desde la consola de node
 
 ```bash
-$ sudo npm install -g ionic cordova
-$ ionic start myTabs tabs
+$ npm install
 ```
-
-Then, to run it, cd into `myTabs` and run:
+Para ejecutar el proyecto en nuestro navegador se debe ejecutar 
 
 ```bash
-$ ionic cordova platform add ios
-$ ionic cordova run ios
+$ ionic serve
 ```
 
-Substitute ios for android if not on a Mac.
+Para hacer el deploy en sus telefonos deben ejecutar
 
+```bash
+$ ionic cordova run android
+```
+
+tambien no olviden revisar toda la información oficial en la pagina de ionic
+
+https://ionicframework.com/
+
+
+para obtener componentes de diseño ingresen a: 
+https://ionicframework.com/docs/components/
+
+para obtener información de como interactuar con componentes del telefono como camara o acelerometro visiten el sitio:
+https://ionicframework.com/docs/native/
+
+
+## Listado de api publicas de Chile ##
+
+https://github.com/raicerk/listado-apis-publicas-en-chile
+
+
+## No olviden pasar por nuestras redes soiales ##
+
+https://pro-gramadores.org
+
+https://facebook.com/pgramadores
+
+https://twitter.com/pgramadores
+
+https://youtube.com/pgramadores
+
+https://instagram.com/pgramadores
+
+https://meetup.com/pgramadores
+
+https://pgramadores.blogspot.com
